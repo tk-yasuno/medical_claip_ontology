@@ -7,6 +7,9 @@
 # Archived bridge-domain backup (pre-existing reference material, not part of this repo)
 0_LogBAK/
 
+# Paper draft workspace (not part of this repo)
+paper_medical_claip/
+
 # Python cache
 __pycache__/
 *.pyc
