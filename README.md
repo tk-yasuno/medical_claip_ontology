@@ -8,9 +8,8 @@ across clinical notes, voice, and images — as a foundation model that can supp
 symptom/procedure voice search, and image-based mental rehearsal before a procedure, especially relevant for
 regions facing physician shortages.
 
-Design details and the full decision log are in
-[docs/Plan_v0.1.0_Medical_Ontology_CLAIP.md](docs/Plan_v0.1.0_Medical_Ontology_CLAIP.md) (v0.1.0 → v0.1.1) and
-[docs/Plan_v0.2.0_Medical_Ontology_CLAIP.md](docs/Plan_v0.2.0_Medical_Ontology_CLAIP.md) (v0.2.0).
+Design details and the full decision log are kept in internal planning docs (v0.1.0 → v0.1.1 and v0.2.0),
+not included in this public repository.
 
 **This is a research / technical-demonstration MVP only. It must not be used for clinical judgement or
 diagnostic support.**
@@ -92,9 +91,7 @@ report text* rather than independently recorded human speech, the audio–text a
 easier than it would be for real speech; the ~99.7% Recall@1 demonstrates that the CLAIP architecture and
 training recipe work correctly for a genuine single-domain, same-case 3-modality dataset — not that the model
 understands natural spoken language at that level. See
-[docs/Plan_v0.2.0_Medical_Ontology_CLAIP.md](docs/Plan_v0.2.0_Medical_Ontology_CLAIP.md) Decisions for the full
-discussion, and [output/medical_claip_v0.2.0_retrieval.json](output/medical_claip_v0.2.0_retrieval.json) for
-the raw results.
+[output/medical_claip_v0.2.0_retrieval.json](output/medical_claip_v0.2.0_retrieval.json) for the raw results.
 
 ## v0.1.0 → v0.1.1 (archived two-branch approach)
 
