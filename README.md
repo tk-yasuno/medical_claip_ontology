@@ -8,9 +8,6 @@ across clinical notes, voice, and images — as a foundation model that can supp
 symptom/procedure voice search, and image-based mental rehearsal before a procedure, especially relevant for
 regions facing physician shortages.
 
-Design details and the full decision log are kept in internal planning docs (v0.1.0 → v0.1.1 and v0.2.0),
-not included in this public repository.
-
 **This is a research / technical-demonstration MVP only. It must not be used for clinical judgement or
 diagnostic support.**
 
