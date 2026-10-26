@@ -1,0 +1,91 @@
+{
+  "note": "Qualitative sanity check on one single-domain (chest radiology) dataset's closed set (1,000 IU X-ray cases with TTS-synthesized narration audio of their own report). The per-query hit-rate numbers below are a small-sample qualitative check (NOT a statistically validated Recall@K benchmark); the global_* numbers are a query-independent closed-set Recall@k computed over all N triples, a much larger sample. See docs/Plan_v0.2.0_Medical_Ontology_CLAIP.md.",
+  "text_to_image_hit_rate": "7/10",
+  "text_to_audio_hit_rate": "4/10",
+  "image_to_audio_same_case_hit_rate": "10/10",
+  "global_image_to_audio_recall@1": 0.997,
+  "global_audio_to_image_recall@1": 0.992,
+  "global_image_to_audio_recall@5": 0.999,
+  "results": [
+    {
+      "query": "pneumothorax",
+      "text_to_image_hit": true,
+      "text_to_image_top_report": "FINDINGS: There are T-spine osteophytes. There calcified costochondral cartilages. There is loss of disc XXXX of a midthoracic vertebral body. There a",
+      "text_to_audio_hit": false,
+      "text_to_audio_top_report": "FINDINGS: Borderline heart size. Tortuous calcified aorta. No active pulmonary disease. Mild spondylosis.. IMPRESSION: No acute process.",
+      "image_to_audio_same_case_hit": true
+    },
+    {
+      "query": "heart",
+      "text_to_image_hit": true,
+      "text_to_image_top_report": "FINDINGS: The lungs are clear. The heart and pulmonary XXXX are normal. The pleural spaces are clear. The mediastinal contours are normal.. IMPRESSION",
+      "text_to_audio_hit": true,
+      "text_to_audio_top_report": "FINDINGS: The lungs are clear. The heart and pulmonary XXXX are normal. The pleural spaces are clear. The mediastinal contours are normal.. IMPRESSION",
+      "image_to_audio_same_case_hit": true
+    },
+    {
+      "query": "effusion",
+      "text_to_image_hit": true,
+      "text_to_image_top_report": "FINDINGS: . IMPRESSION: 1. Worsening bilateral lower lobe opacities which are most XXXX due to enlarging bilateral pleural effusions. Superimposed low",
+      "text_to_audio_hit": true,
+      "text_to_audio_top_report": "FINDINGS: . IMPRESSION: Heart size is normal. Lungs are clear. No effusions, pneumonia, or edema",
+      "image_to_audio_same_case_hit": true
+    },
+    {
+      "query": "lungs",
+      "text_to_image_hit": false,
+      "text_to_image_top_report": "FINDINGS: Heart size is normal. No pleural effusions. No pneumothorax. No focal air space opacities. Mild degenerative osteophytes are noted in the th",
+      "text_to_audio_hit": false,
+      "text_to_audio_top_report": "FINDINGS: Consolidation and some atelectasis are present in the left lower lobe. Patchy interstitial infiltrates are also present in the right lower l",
+      "image_to_audio_same_case_hit": true
+    },
+    {
+      "query": "pleural effusion",
+      "text_to_image_hit": true,
+      "text_to_image_top_report": "FINDINGS: . IMPRESSION: 1. Worsening bilateral lower lobe opacities which are most XXXX due to enlarging bilateral pleural effusions. Superimposed low",
+      "text_to_audio_hit": true,
+      "text_to_audio_top_report": "FINDINGS: There are multiple bilateral pulmonary nodules. For example, there is a 12 mm left lower lobe nodule, XXXX seen on the frontal view. There i",
+      "image_to_audio_same_case_hit": true
+    },
+    {
+      "query": "consolidation",
+      "text_to_image_hit": false,
+      "text_to_image_top_report": "FINDINGS: There is minimal XXXX opacity in the left lung base, XXXX representing atelectasis. The lungs are otherwise clear. Heart size is normal. No ",
+      "text_to_audio_hit": false,
+      "text_to_audio_top_report": "FINDINGS: There is minimal XXXX opacity in the left lung base, XXXX representing atelectasis. The lungs are otherwise clear. Heart size is normal. No ",
+      "image_to_audio_same_case_hit": true
+    },
+    {
+      "query": "lung",
+      "text_to_image_hit": true,
+      "text_to_image_top_report": "FINDINGS: The XXXX examination consists of frontal and lateral radiographs of the chest. Again seen is evidence of prior CABG. The cardiomediastinal c",
+      "text_to_audio_hit": false,
+      "text_to_audio_top_report": "FINDINGS: Consolidation and some atelectasis are present in the left lower lobe. Patchy interstitial infiltrates are also present in the right lower l",
+      "image_to_audio_same_case_hit": true
+    },
+    {
+      "query": "spine",
+      "text_to_image_hit": true,
+      "text_to_image_top_report": "FINDINGS: The heart size and pulmonary vascularity appear within normal limits. Right hemidiaphragm remains elevated. No pleural effusion is seen. No ",
+      "text_to_audio_hit": false,
+      "text_to_audio_top_report": "FINDINGS: . IMPRESSION: 3 cm right upper lobe anterior segment mass. No effusion. No adenopathy. CT scan is the XXXX XXXX to determine if there is any",
+      "image_to_audio_same_case_hit": true
+    },
+    {
+      "query": "aorta",
+      "text_to_image_hit": true,
+      "text_to_image_top_report": "FINDINGS: Normal heart size. Stable tortuous aorta. No pneumothorax or pleural effusion. No suspicious focal air space opacities. Levoscoliosis of the",
+      "text_to_audio_hit": false,
+      "text_to_audio_top_report": "FINDINGS: Stable appearance of aortic valve prosthesis. Sternotomy XXXX. Aortic calcifications. Mild interstitial edema. No focal infiltrate. No effus",
+      "image_to_audio_same_case_hit": true
+    },
+    {
+      "query": "edema",
+      "text_to_image_hit": false,
+      "text_to_image_top_report": "FINDINGS: . IMPRESSION: Heart size is normal. Bilateral upper lobe XXXX, fibronodular infiltrates which have been there on prior exams.",
+      "text_to_audio_hit": true,
+      "text_to_audio_top_report": "FINDINGS: Heart size normal. Lungs are clear. XXXX are normal. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses.. IMPRESSIO",
+      "image_to_audio_same_case_hit": true
+    }
+  ]
+}

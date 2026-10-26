@@ -1,0 +1,8 @@
+{
+  "asr_tag": "raw",
+  "text_field": "text_asr",
+  "n_segments": 3730,
+  "overall_wer": 0.35690505548705304,
+  "n_medical_segments": 410,
+  "medical_subset_wer": 0.32862227805695143
+}

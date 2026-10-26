@@ -1,0 +1,124 @@
+\begin{thebibliography}{10}
+
+\bibitem{yasuno2026meetingasr}
+Takato Yasuno, Atsuhiro Yamamoto, and Kazuki Izumi.
+\newblock Ontology-derived dictionary correction algorithm from construction
+  meeting speaker {ASR}.
+\newblock Companion manuscript (base paper for this extension), 2026.
+
+\bibitem{yasuno2026ontology}
+Takato Yasuno.
+\newblock Constructing and verifying a bridge damage-cause knowledge graph:
+  Ontology design, deduplication semantics, and label-granularity-aware
+  {LLM}-as-judge validation.
+\newblock Companion manuscript, 2026.
+
+\bibitem{radford2021clip}
+Alec Radford, Jong~Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh,
+  Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark,
+  Gretchen Krueger, and Ilya Sutskever.
+\newblock Learning transferable visual models from natural language
+  supervision.
+\newblock In {\em Proceedings of the 38th International Conference on Machine
+  Learning (ICML)}, pages 8748--8763, 2021.
+
+\bibitem{oord2018cpc}
+Aaron van~den Oord, Yazhe Li, and Oriol Vinyals.
+\newblock Representation learning with contrastive predictive coding.
+\newblock {\em arXiv preprint arXiv:1807.03748}, 2018.
+
+\bibitem{elizalde2023clap}
+Benjamin Elizalde, Soham Deshmukh, Mahmoud Al~Ismail, and Huaming Wang.
+\newblock {CLAP} learning audio concepts from natural language supervision.
+\newblock {\em ICASSP 2023 - 2023 IEEE International Conference on Acoustics,
+  Speech and Signal Processing (ICASSP)}, pages 1--5, 2023.
+
+\bibitem{li2022blip}
+Junnan Li, Dongxu Li, Caiming Xiong, and Steven Hoi.
+\newblock {BLIP}: Bootstrapping language-image pre-training for unified
+  vision-language understanding and generation.
+\newblock In {\em Proceedings of the 39th International Conference on Machine
+  Learning (ICML)}, pages 12888--12900, 2022.
+
+\bibitem{sawada2024release}
+Kei Sawada, Tianyu Zhao, Makoto Shing, Kentaro Mitsui, Akio Kaga, Yukiya Hono,
+  Toshiaki Wakatsuki, and Koh Mitsuda.
+\newblock Release of pre-trained models for the {J}apanese language.
+\newblock In {\em Proceedings of the 2024 Joint International Conference on
+  Computational Linguistics, Language Resources and Evaluation (LREC-COLING
+  2024)}, pages 13898--13905, 2024.
+
+\bibitem{jaided2020easyocr}
+{JaidedAI}.
+\newblock {EasyOCR}: Ready-to-use {OCR} with 80+ supported languages.
+\newblock \url{https://github.com/JaidedAI/EasyOCR}, 2020.
+
+\bibitem{wang2024e5}
+Liang Wang, Nan Yang, Xiaolong Huang, Linjun Yang, Rangan Majumder, and Furu
+  Wei.
+\newblock Multilingual {E5} text embeddings: A technical report.
+\newblock {\em arXiv preprint arXiv:2402.05672}, 2024.
+
+\bibitem{reimers2019sentencebert}
+Nils Reimers and Iryna Gurevych.
+\newblock Sentence-{BERT}: Sentence embeddings using {Siamese BERT}-networks.
+\newblock In {\em Proceedings of the 2019 Conference on Empirical Methods in
+  Natural Language Processing}, pages 3982--3992, 2019.
+
+\bibitem{al-aswadi2020ontology}
+Fatima~N. Al-Aswadi, Huah~Yong Chan, and Keng~Hoon Gan.
+\newblock Automatic ontology construction from text: A review from shallow to
+  deep learning trend.
+\newblock {\em Artificial Intelligence Review}, 53:3901--3928, 2020.
+
+\bibitem{du2024ontologyllm}
+Rick Du, Huilong An, Keyu Wang, and Weidong Liu.
+\newblock A short review for ontology learning: Stride to large language models
+  trend.
+\newblock arXiv preprint arXiv:2404.14991, 2024.
+
+\bibitem{bian2025llmkg}
+Haonan Bian.
+\newblock {LLM}-empowered knowledge graph construction: A survey.
+\newblock arXiv preprint arXiv:2510.20345, 2025.
+
+\bibitem{chen2023multimodalkg}
+Yong Chen, Xinkai Ge, Shengli Yang, Linmei Hu, Jie Li, and Jinwen Zhang.
+\newblock A survey on multimodal knowledge graphs: Construction, completion and
+  applications.
+\newblock {\em Mathematics}, 11(8):1815, 2023.
+
+\bibitem{kumar2025llmkgenterprise}
+Rajeev Kumar, Kumar Ishan, Harishankar Kumar, and Abhinandan Singla.
+\newblock {LLM}-powered knowledge graphs for enterprise intelligence and
+  analytics.
+\newblock arXiv preprint arXiv:2503.07993, 2025.
+
+\bibitem{hangchen2025misp}
+Hang Chen, Chao-Han~Huck Yang, Jia-Chen Gu, Sabato~Marco Siniscalchi, and Jun
+  Du.
+\newblock {MISP}-meeting: A real-world dataset with multimodal cues for
+  long-form meeting transcription and summarization.
+\newblock In {\em Proceedings of the 63rd Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)}, pages 15479--15492, 2025.
+
+\bibitem{radford2022whisper}
+Alec Radford, Jong~Wook Kim, Tao Xu, Greg Brockman, Christine McLeavey, and
+  Ilya Sutskever.
+\newblock Robust speech recognition via large-scale weak supervision.
+\newblock {\em arXiv preprint arXiv:2212.04356}, 2022.
+
+\bibitem{debnath2025agenticmesh}
+Nabin Debnath.
+\newblock The enterprise agentic mesh: Architectural convergence of semantic
+  control planes and autonomous multi-agent governance.
+\newblock {\em International Journal of Scientific and Research Publications},
+  15(12), 2025.
+
+\bibitem{wang2026crossdomainworkflow}
+Jialiang Wang, Shengxiang Xu, Hanmo Liu, Jiachuan Wang, Yuyu Luo, Shimin Di,
+  Min-Ling Zhang, and Lei Chen.
+\newblock Learning to compose for cross-domain agentic workflow generation.
+\newblock arXiv preprint arXiv:2602.11114, 2026.
+
+\end{thebibliography}

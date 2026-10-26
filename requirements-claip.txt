@@ -1,0 +1,27 @@
+# requirements-claip.txt (medical_claip, v0.1.0) -- ported from
+# 0_LogBAK/pre-code_meet_mp4_claip/requirements-claip.txt. japanese_clip /
+# easyocr are kept installed (harmless, unused by this medical pipeline --
+# there is no OCR/frame-captioning stage here, see
+# docs/Plan_v0.1.0_Medical_Ontology_CLAIP.md Phase 4) rather than removed,
+# to avoid disturbing the shared .venv-claip's bridge-domain compatibility.
+#
+# torch / torchaudio / torchvision CUDA install (same as bridge domain, see
+# that requirements-claip.txt's header comment for the full rationale):
+#   pip install --no-deps "torch==2.11.0+cu128" "torchaudio==2.11.0+cu128" --index-url https://download.pytorch.org/whl/cu128
+#   pip install torchvision==0.26.0+cu128 --index-url https://download.pytorch.org/whl/cu128
+transformers>=5,<6
+sentence-transformers>=6,<7
+easyocr==1.7.2
+protobuf
+pillow
+imagehash
+opencv-python-headless
+numpy
+scikit-learn
+tqdm
+python-dotenv
+pyyaml
+# medical_claip additions (Phase 1, Step 1):
+open_clip_torch>=3.3.0   # BiomedCLIP (hf-hub:microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224), MIT license
+pyarrow>=26.0.0          # parquet reading (IU X-ray Hugging Face mirror)
+pandas

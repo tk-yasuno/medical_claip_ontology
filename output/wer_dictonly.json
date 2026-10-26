@@ -1,0 +1,8 @@
+{
+  "asr_tag": "dictonly",
+  "text_field": "text_corrected",
+  "n_segments": 3730,
+  "overall_wer": 0.35682285244554046,
+  "n_medical_segments": 410,
+  "medical_subset_wer": 0.32809882747068675
+}

@@ -1,0 +1,26 @@
+# Python virtual environments (recreate via README reproduction steps)
+.venv-asr/
+.venv-claip/
+.venv-tts/
+.venv*/
+
+# Archived bridge-domain backup (pre-existing reference material, not part of this repo)
+0_LogBAK/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Datasets and derived artifacts (large, regenerable via README reproduction steps;
+# PriMock57 is CC BY 4.0 / IU X-ray is CC BY-NC-ND 4.0 and must not be redistributed here)
+data/
+
+# Large generated outputs that are easy to regenerate
+*.onnx
+*.wav
+*.npy
+*.pt
+
+# OS / editor noise
+.DS_Store
+Thumbs.db

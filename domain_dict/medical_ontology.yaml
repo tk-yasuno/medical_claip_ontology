@@ -1,0 +1,180 @@
+# domain_dict/medical_ontology.yaml -- Medical Ontology (research MVP, NOT for clinical use)
+#
+# 5-layer taxonomy (Disease/Symptom/Procedure/Drug/Body-Part) built from:
+#   - PriMock57 notes/*.json `highlights` + `presenting_complaint` (clinician-flagged, audio side)
+#   - IU X-ray report_text keyword matches against a curated chest X-ray finding list (image side)
+# Classified into categories by a local LLM (qwen2.5:7b-instruct-q4_k_m); only confidence="high"
+# candidates are merged here (see docs/Plan_v0.1.0_Medical_Ontology_CLAIP.md Phase 5, Decisions).
+# Research/technical-demonstration use only; NOT validated for clinical decision support.
+
+Body-Part:
+- LLQ pain
+- Over right eye
+- aorta
+- calcification
+- cardiomegaly
+- consolidation
+- diaphragm
+- fracture
+- heart
+- hernia
+- hilar
+- lung
+- lungs
+- pleura
+- rib
+- ribs
+- scoliosis
+- spine
+Disease:
+- Asthma
+- COPD
+- Eczema
+- FH Hypothyroidism
+- FH of IHD
+- Father - asthma
+- Gastroenteritis
+- Heart failure
+- Hives
+- Hypertension
+- IBS
+- Lactose intolerance
+- 'PMH : asthma'
+- T2 DM
+- Type 2 diabetes
+- UTI
+- UTI/cystitis
+- Upper respiratory tract infection
+- acute cardiac event
+- anaphylactic reaction
+- anxiety
+- asthma
+- atelectasis
+- cardiomegaly
+- contact dermatitis
+- dermatitis
+- eczema
+- emphysema
+- exacerbation of heart failure
+- fibrosis
+- gastroenteritis
+- granuloma
+- hayfever
+- hernia
+- hyperinflation
+- labrynthitis
+- latex allergy
+- peanut allergy
+- pleural effusion
+- pneumonia
+- pneumothorax
+- premature ovarian failure
+- pulmonary edema
+- scoliosis
+- underactive thyroid
+- viral URTI
+Drug:
+- Steroid cream
+- cerazette
+- ibuprofen
+- microgynon
+- on sertraline
+Procedure:
+- inhaler
+Symptom:
+- Difficulty swallowing water
+- Doesn't feel feverish
+- Feeling hot and sweaty
+- Fever
+- Headache
+- I have a blinding headache
+- I have a pouring diarrhea
+- I have really bad diarrhea
+- I have terrible headache
+- I'm feeling hot and have severe headaches
+- I'm having difficulty breathing
+- I'm wheezy
+- I've been feeling dizzy
+- I've been feeling very hot and sweaty for the past week
+- I've been having really bad diarrhea for the last 3 days
+- I've been having really bad diarrhoea for the last 3 days
+- I've got a really bad headache
+- I've had a blinding headache for a few days
+- I've had bad diarrhea for 3 days
+- It hurts when I pee
+- I’m having difficulty breathing
+- Left sided headache
+- Low mood most of the time but denies any suicidal ideation
+- Lower abdominal pain
+- Lower stomach pain
+- My asthma is not responding to my inhalers
+- My tummy hurts
+- No fever
+- No fever/temp
+- No rash
+- No sputum/haemoptysis
+- No trauma
+- Not coughing up sputum
+- Not feverish
+- Not woken up in the night
+- Periumbilical pain
+- Seeing lights in front of eyes
+- Some sensitivity to bright lights
+- Tingling present on left side of face
+- Visual aura
+- Vomiting
+- Wheeze
+- abdo pain/suprapubic pain
+- acute cardiac event
+- anaphylactic reaction
+- ankle odema bilaterally
+- bee/wasp bite
+- blood in the urine
+- breathlessness
+- burning
+- chest pain
+- cough
+- crampy abdo pain
+- diarrhea
+- difficulty hearing
+- dizziness
+- dysuria
+- edema
+- effusion
+- elbow swelling
+- exacerbation of heart failure
+- facial numbness
+- fatigue
+- fever
+- fracture
+- frequency
+- haematuria
+- hard to breathe
+- headache
+- insomnia
+- itchy
+- lip swelling
+- localized inflammatory reaction
+- loss of appetite
+- lower abdominal pain
+- migraine
+- migraines
+- muscle aches
+- my chest feels very tight
+- my chest hurts and it's been hard to breathe
+- myalgia
+- nausea
+- night sweats
+- photophobia
+- red circular rash
+- runny nose
+- sore throat
+- suprapubic pain
+- sweatiness
+- tension type headache
+- thirsty
+- tingling R side forefoot
+- tinnitus
+- visual aura
+- vomited
+- vomiting

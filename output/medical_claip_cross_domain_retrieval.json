@@ -1,0 +1,51 @@
+{
+  "note": "Qualitative cross-domain sanity check: two independently trained 2-modality CLAIP branches (Audio-Text on PriMock57, Image-Text on IU X-ray) sharing only the same frozen multilingual-e5-base TextEncoder. NOT a statistically validated Recall@K benchmark; the two source datasets cover different clinical contexts (UK primary care vs. US chest radiology), so some queries may legitimately show low overlap. See docs/Plan_v0.1.0_Medical_Ontology_CLAIP.md Phase 8 / Further Considerations.",
+  "audio_hit_rate": "1/4",
+  "image_hit_rate": "1/4",
+  "results": [
+    {
+      "query": "heart",
+      "audio_hit": true,
+      "audio_top_consultation_id": "day1_consultation06",
+      "audio_top_sim": 0.39517343044281006,
+      "audio_top_note_text": "hard to breathe. 2/5 hx of SOB, worsening over the past 2/7. Feeling more SOB on minimal exertion, nil SOB at rest. No chest pain/palpitations. Assoc cough - mainly dry. No fevers. Has also noticed an",
+      "image_hit": false,
+      "image_top_image_id": "iuxray_02545",
+      "image_top_sim": 0.3928156793117523,
+      "image_top_report_text": "FINDINGS: Stable cardiomegaly. Thoracic aortic atherosclerotic calcifications are noted. There is a prominence of the pulmonary vasculature. No consolidating airspace disease is seen. No pleural effus"
+    },
+    {
+      "query": "lung",
+      "audio_hit": false,
+      "audio_top_consultation_id": "day4_consultation08",
+      "audio_top_sim": 0.4087190330028534,
+      "audio_top_note_text": "lately, I haven't had much appetite or energy. Confirmed name \nDOB confrimed. \n\n\n8 weeks. \nNot able to get up in the morning \nNo energy during the day. \nNot eating \nDifficulty sleeping. \nMood is Distr",
+      "image_hit": true,
+      "image_top_image_id": "iuxray_01716",
+      "image_top_sim": 0.3578335642814636,
+      "image_top_report_text": "FINDINGS: Lungs are clear. No pleural effusions or pneumothoraces. Heart size is normal with postoperative changes consistent with CABG. Degenerative changes in the thoracic spine.. IMPRESSION: Clear "
+    },
+    {
+      "query": "Hypertension",
+      "audio_hit": false,
+      "audio_top_consultation_id": "day4_consultation08",
+      "audio_top_sim": 0.39182916283607483,
+      "audio_top_note_text": "lately, I haven't had much appetite or energy. Confirmed name \nDOB confrimed. \n\n\n8 weeks. \nNot able to get up in the morning \nNo energy during the day. \nNot eating \nDifficulty sleeping. \nMood is Distr",
+      "image_hit": false,
+      "image_top_image_id": "iuxray_00483",
+      "image_top_sim": 0.4024851620197296,
+      "image_top_report_text": "FINDINGS: Cardiomediastinal contour stable and within normal limits. Changes of prior CABG again noted. Normal pulmonary vascularity. Streaky bibasilar opacities decreased from previous, possibly subs"
+    },
+    {
+      "query": "Heart failure",
+      "audio_hit": false,
+      "audio_top_consultation_id": "day4_consultation01",
+      "audio_top_sim": 0.41566720604896545,
+      "audio_top_note_text": "I'm having chest discomfort. PC: acute onset left sided chest discomfort / pressure, feels like someone sitting on his chest 7/10, radiating to the left shoulder and arm.\n1-2 hours in duration, acute ",
+      "image_hit": false,
+      "image_top_image_id": "iuxray_01290",
+      "image_top_sim": 0.42132627964019775,
+      "image_top_report_text": "FINDINGS: KUB. Centered over the mid abdomen there are multiple air-filled dilated loops of small bowel measuring the XXXX of which measure up to about 3.7 cm in diameter. There is also an extremely d"
+    }
+  ]
+}

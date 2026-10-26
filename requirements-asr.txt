@@ -1,0 +1,26 @@
+# requirements-asr.txt (medical_claip, v0.1.0) -- ported from
+# 0_LogBAK/pre-code_meet_mp4_claip/requirements-asr.txt with Japanese-only
+# dependencies (SudachiPy/sudachidict) dropped: this MVP's English ASR
+# post-processing uses word-boundary regex, not morphological tokenization
+# (see docs/Plan_v0.1.0_Medical_Ontology_CLAIP.md Decisions). pyannote.audio
+# is no longer used either (PriMock57 ships pre-separated doctor/patient
+# channels and hand-annotated utterance timings; see
+# src/merge_speaker_segments.py), but is left installed in this shared
+# .venv-asr for compatibility with the bridge-domain pipeline.
+#
+# torch / torchaudio / torchcodec CUDA install (same as bridge domain, see
+# that requirements-asr.txt's header comment for the full rationale):
+#   pip install --no-deps "torch==2.11.0+cu128" "torchaudio==2.11.0+cu128" --index-url https://download.pytorch.org/whl/cu128
+#   pip install --no-deps "torchcodec==0.17.0"
+faster-whisper==1.1.1
+pyannote.audio==4.0.7
+pydub==0.25.1
+jinja2==3.1.6
+pyyaml==6.0.2
+python-dotenv==1.0.1
+requests==2.32.3
+scikit_learn==1.9.1
+sudachipy==0.7.0
+sudachidict_core==20261015
+# medical_claip additions (Phase 1, Step 1):
+jiwer>=4.0.0

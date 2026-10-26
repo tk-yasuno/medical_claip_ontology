@@ -1,0 +1,20 @@
+# domain_dict/vocab_medical.yaml -- ASR misrecognition correction dictionary (English)
+#
+# Format: canonical_term: [observed faster-whisper misrecognition variants]
+# Variants here are NOT guessed: each was found by diffing faster-whisper's raw ASR
+# output against PriMock57's human-transcribed text_gold, restricted to cases where the
+# reference word/phrase is a domain_dict/medical_ontology.yaml term (see
+# src/vocab_merge_medical.py and docs/Plan_v0.1.0_Medical_Ontology_CLAIP.md Phase 5).
+# postprocess_medical.py replaces variants with their canonical form via case-insensitive
+# word-boundary regex (no morphological tokenizer needed for English; see Decisions).
+
+cough:
+- cops
+diarrhea:
+- diarrhoea
+dizziness:
+- disney
+hayfever:
+- high fever
+microgynon:
+- mark a garden
